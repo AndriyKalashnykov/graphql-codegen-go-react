@@ -1,7 +1,7 @@
 SELF_DIR := $(dir $(lastword $(MAKEFILE_LIST)))
 
 .DEFAULT_GOAL := help
-NODEVER=v17.4.0
+NODEVER=v18.20.2
 GOFLAGS=-mod=mod
 
 #help: @ List available targets
